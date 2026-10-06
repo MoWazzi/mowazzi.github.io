@@ -1,35 +1,59 @@
 ---
-title: "Home"
 page-layout: full
 ---
 
-::: {.hero}
+::: {.hero-grid}
 ::: {.hero-copy}
+<p class="eyebrow">University of Oxford · Nuffield College</p>
+
 # Mo Wazzi
 
-## Economics PhD student
+## PhD student in Economics
 
-I am an economics PhD student. This website brings together my research,
-teaching, and academic materials.
+My research interests are in macroeconomics, fiscal policy, and monetary policy.
 
-[Email me](mailto:mohamad.wazzi@nuffield.ox.ac.uk){.btn .btn-primary}
+[Research](research.qmd){.btn .btn-primary}
+[Email](mailto:mohamad.wazzi@economics.ox.ac.uk){.btn .btn-outline-primary}
+:::
+
+::: {.hero-image}
+![](images/mo-wazzi.jpg){fig-alt="Portrait of Mo Wazzi"}
 :::
 :::
 
-::: {.home-grid}
-::: {.home-section}
-## Research
+::: {.intro-band}
+## About
 
-Working papers, publications, and research in progress will be collected here.
-
-[View research →](research.qmd){.section-link}
+Hi! I am a third-year PhD student in Economics at the University of Oxford and
+a member of Nuffield College. I previously worked as a senior economist at the
+Bank of England.
 :::
 
-::: {.home-section}
-## Teaching
+::: {.selected-research}
+## Selected research
 
-Teaching experience and course information will be added here.
+::: {.research-grid}
+::: {.research-preview}
+<p class="paper-kicker">Conditionally accepted · 2026</p>
 
-[View teaching →](teaching.qmd){.section-link}
+### Unconventional Monetary Policy: Lessons from 2020–2024
+
+With Silvana Tenreyro. *Journal of Economic Literature.*
+
+This paper synthesises the literature on forward guidance and large-scale
+asset purchases through the 2020–2024 episode, with a focus on policy design
+and the commitment–flexibility trade-off.
 :::
+
+::: {.research-preview}
+<p class="paper-kicker">Work in progress</p>
+
+### Endogenous Growth in Multi-Sector Economies
+
+This paper studies how sectoral heterogeneity shapes the medium-run effects of
+aggregate demand shocks when productivity growth is endogenous.
+:::
+:::
+
+[View all research →](research.qmd){.section-link}
 :::
