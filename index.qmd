@@ -26,10 +26,9 @@ page-layout: full
 
 ## PhD student in Economics
 
-Hi! I am a third-year PhD student in Economics at the University of Oxford and
-a member of Nuffield College. My research interests are in macroeconomics,
-fiscal policy, and monetary policy. I previously worked as a senior economist
-at the Bank of England.
+<p class="bio">Hi! I am a third-year PhD student in Economics at the University of Oxford and a member of Nuffield College. My research interests are in macroeconomics, fiscal policy, and monetary policy. I previously worked as a senior economist at the Bank of England.</p>
+
+<p class="contact-line">You can find my CV <span class="cv-link-pending-text" title="CV PDF to be added"><strong>here</strong></span> and you can contact me at <a href="mailto:mohamad.wazzi@economics.ox.ac.uk">mohamad.wazzi@economics.ox.ac.uk</a>.</p>
 :::
 :::
 

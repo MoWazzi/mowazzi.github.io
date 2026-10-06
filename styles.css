@@ -138,13 +138,33 @@ a:focus {
   margin: 0 0 1rem;
 }
 
-.profile-copy > p:last-child {
+.profile-copy .bio {
   border-top: 1px solid var(--line);
   color: var(--muted);
   font-size: 1.1rem;
   margin: 1.25rem 0 0;
   max-width: 660px;
   padding-top: 1.25rem;
+}
+
+.contact-line {
+  color: var(--muted);
+  font-size: 0.95rem;
+  margin: 0.85rem 0 0;
+}
+
+.contact-line a {
+  font-weight: 600;
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.14em;
+}
+
+.cv-link-pending-text {
+  color: var(--accent);
+  cursor: help;
+  text-decoration: underline;
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.14em;
 }
 
 .research-section {
