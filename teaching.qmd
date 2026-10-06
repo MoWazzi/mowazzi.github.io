@@ -1,0 +1,9 @@
+---
+title: "Teaching"
+description: "Teaching by Mo Wazzi"
+---
+
+This page will contain teaching experience, course information, and selected
+public teaching materials.
+
+Teaching details will be added from the private website-content document.

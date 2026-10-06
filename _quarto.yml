@@ -1,0 +1,34 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Mo Wazzi"
+  site-url: "https://mowazzi.github.io"
+  description: "Personal academic website of Mo Wazzi, an economics PhD student."
+  navbar:
+    title: "Mo Wazzi"
+    left:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - href: teaching.qmd
+        text: Teaching
+    right:
+      - icon: envelope
+        href: mailto:mohamad.wazzi@nuffield.ox.ac.uk
+        aria-label: Email Mo Wazzi
+  page-footer:
+    left: "© 2026 Mo Wazzi"
+    right: "Built with Quarto and hosted on GitHub Pages"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
+    link-external-newwindow: true
+
+execute:
+  freeze: auto

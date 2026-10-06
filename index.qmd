@@ -1,0 +1,35 @@
+---
+title: "Home"
+page-layout: full
+---
+
+::: {.hero}
+::: {.hero-copy}
+# Mo Wazzi
+
+## Economics PhD student
+
+I am an economics PhD student. This website brings together my research,
+teaching, and academic materials.
+
+[Email me](mailto:mohamad.wazzi@nuffield.ox.ac.uk){.btn .btn-primary}
+:::
+:::
+
+::: {.home-grid}
+::: {.home-section}
+## Research
+
+Working papers, publications, and research in progress will be collected here.
+
+[View research →](research.qmd){.section-link}
+:::
+
+::: {.home-section}
+## Teaching
+
+Teaching experience and course information will be added here.
+
+[View teaching →](teaching.qmd){.section-link}
+:::
+:::

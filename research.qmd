@@ -1,0 +1,10 @@
+---
+title: "Research"
+description: "Research by Mo Wazzi"
+---
+
+This page will contain publications, working papers, and research in progress.
+Each entry can include an abstract and links to the paper, code, data, and
+slides where available.
+
+Research details will be added from the private website-content document.
