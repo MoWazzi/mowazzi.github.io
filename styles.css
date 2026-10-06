@@ -73,21 +73,48 @@ a:focus {
 .profile-links {
   align-items: center;
   display: flex;
-  font-size: 0.9rem;
-  font-weight: 650;
-  gap: 0.55rem;
+  gap: 0.42rem;
   justify-content: center;
-  letter-spacing: 0.015em;
   margin-top: 0.8rem;
 }
 
-.profile-links a {
+.profile-links a,
+.profile-link-pending {
+  align-items: center;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  display: inline-flex;
+  height: 2rem;
+  justify-content: center;
   text-decoration: none;
+  width: 2rem;
+}
+
+.profile-links a {
+  color: var(--accent);
+  transition: background-color 140ms ease, border-color 140ms ease;
+}
+
+.profile-links a:hover,
+.profile-links a:focus {
+  background: var(--soft-blue);
+  border-color: #bac9d2;
+}
+
+.profile-links svg {
+  fill: none;
+  height: 1.08rem;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.75;
+  width: 1.08rem;
 }
 
 .profile-link-pending {
   color: #8a949d;
   cursor: help;
+  opacity: 0.72;
 }
 
 .profile-copy {
@@ -118,19 +145,13 @@ a:focus {
   margin: 0 0 1rem;
 }
 
-.research-fields {
-  border-bottom: 1px solid var(--line);
-  color: var(--muted);
-  font-size: 0.96rem;
-  margin-bottom: 1.3rem;
-  padding-bottom: 1.05rem;
-}
-
 .profile-copy > p:last-child {
+  border-top: 1px solid var(--line);
   color: var(--muted);
   font-size: 1.1rem;
-  margin-bottom: 0;
+  margin: 1.25rem 0 0;
   max-width: 660px;
+  padding-top: 1.25rem;
 }
 
 .research-section {
@@ -218,10 +239,10 @@ a:focus {
   max-width: 900px;
 }
 
-.paper-abstract .paper-note {
+.paper-note {
   color: #727d86;
   font-size: 0.88rem;
-  font-style: italic;
+  margin: 0.38rem 0 0.58rem;
 }
 
 .page-footer {
