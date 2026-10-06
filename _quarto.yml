@@ -6,21 +6,6 @@ website:
   title: "Mo Wazzi"
   site-url: "https://mowazzi.github.io"
   description: "Mo Wazzi is a PhD student in Economics at the University of Oxford and Nuffield College."
-  navbar:
-    title: "Mo Wazzi"
-    search: false
-    left:
-      - href: index.qmd
-        text: Home
-      - href: research.qmd
-        text: Research
-    right:
-      - icon: envelope
-        href: mailto:mohamad.wazzi@economics.ox.ac.uk
-        aria-label: Email Mo Wazzi
-      - icon: twitter-x
-        href: https://x.com/mo_wazzi
-        aria-label: Mo Wazzi on X
   page-footer:
     left: "© 2026 Mo Wazzi"
     right: "University of Oxford · Nuffield College"

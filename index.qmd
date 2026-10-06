@@ -2,58 +2,69 @@
 page-layout: full
 ---
 
-::: {.hero-grid}
-::: {.hero-copy}
+::: {.profile-shell}
+::: {.profile-card}
+![](images/mo-wazzi.jpg){fig-alt="Portrait of Mo Wazzi"}
+
+<nav class="profile-links" aria-label="Profile links">
+  <a href="mailto:mohamad.wazzi@economics.ox.ac.uk">Email</a>
+  <span aria-hidden="true">·</span>
+  <a href="https://x.com/mo_wazzi">X</a>
+  <span aria-hidden="true">·</span>
+  <span class="profile-link-pending" title="CV PDF to be added">CV</span>
+</nav>
+:::
+
+::: {.profile-copy}
 <p class="eyebrow">University of Oxford · Nuffield College</p>
 
 # Mo Wazzi
 
 ## PhD student in Economics
 
-My research interests are in macroeconomics, fiscal policy, and monetary policy.
-
-[Research](research.qmd){.btn .btn-primary}
-[Email](mailto:mohamad.wazzi@economics.ox.ac.uk){.btn .btn-outline-primary}
-:::
-
-::: {.hero-image}
-![](images/mo-wazzi.jpg){fig-alt="Portrait of Mo Wazzi"}
-:::
-:::
-
-::: {.intro-band}
-## About
+<p class="research-fields">Macroeconomics · Fiscal policy · Monetary policy</p>
 
 Hi! I am a third-year PhD student in Economics at the University of Oxford and
 a member of Nuffield College. I previously worked as a senior economist at the
 Bank of England.
 :::
+:::
 
-::: {.selected-research}
-## Selected research
+::: {#research .research-section}
+## Publications
 
-::: {.research-grid}
-::: {.research-preview}
-<p class="paper-kicker">Conditionally accepted · 2026</p>
-
+::: {.paper-item}
 ### Unconventional Monetary Policy: Lessons from 2020–2024
 
-With Silvana Tenreyro. *Journal of Economic Literature.*
+<p class="paper-meta">with Silvana Tenreyro · <em>Journal of Economic Literature</em> · 2026 · Conditionally accepted</p>
 
-This paper synthesises the literature on forward guidance and large-scale
-asset purchases through the 2020–2024 episode, with a focus on policy design
-and the commitment–flexibility trade-off.
+<details class="paper-abstract">
+<summary>Abstract</summary>
+<p>The 2020–2024 period placed unconventional monetary policy tools at the centre of policy. Forward guidance and large-scale asset purchases were deployed forcefully and were then confronted by a rapid recovery and a sharp inflation surge. This paper synthesises the literature through that episode, focusing on the Federal Reserve. We revisit the background literature on forward guidance and asset purchases, focusing on issues that became central after 2020: state dependence, transmission under stress, and the design challenges that arise when conditions change unexpectedly. The episode yielded new transmission evidence—especially on asset purchases—but its main lessons concern policy design. The Fed's 2020 policy package embedded too little flexibility once the outlook shifted, though likely with modest effects on inflation itself. More generally, unconventional policy faces a commitment–flexibility trade-off, suggesting that guidance conditions and purchase programmes should be stress tested across alternative states of the world before deployment.</p>
+<p class="paper-note">Initially prepared for the Federal Reserve's 2025 framework review.</p>
+</details>
 :::
 
-::: {.research-preview}
-<p class="paper-kicker">Work in progress</p>
+## Work in progress
 
+::: {.paper-item}
 ### Endogenous Growth in Multi-Sector Economies
 
-This paper studies how sectoral heterogeneity shapes the medium-run effects of
-aggregate demand shocks when productivity growth is endogenous.
-:::
+<details class="paper-abstract">
+<summary>Abstract</summary>
+<p>This paper studies how sectoral heterogeneity shapes the medium-run effects of aggregate demand shocks when productivity growth is endogenous. I develop a multi-sector model in which weak demand reduces sectoral R&amp;D, lowers future productivity growth, and generates endogenous persistence. Aggregate persistence is stronger when demand is concentrated in sectors whose future productivity growth is more sensitive to current economic activity, and it is amplified by production linkages. The framework implies that optimal stabilisation policy should depend on sectors' importance for future productive capacity, not only on nominal rigidities and network position. Firm- and sector-level empirical evidence provides suggestive support for these mechanisms in U.S. data.</p>
+</details>
 :::
 
-[View all research →](research.qmd){.section-link}
+::: {.paper-item}
+### Quantitative Tightening: The Bank Liquidity-Duration Nexus
+
+<p class="paper-meta">with Alba Patozi and Matthieu Chavaz</p>
+:::
+
+::: {.paper-item}
+### Optimal Fiscal and Monetary Policy with a Working Externality
+
+<p class="paper-meta">with Silvana Tenreyro</p>
+:::
 :::
