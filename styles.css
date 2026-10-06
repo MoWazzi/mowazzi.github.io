@@ -81,34 +81,27 @@ a:focus {
 .profile-links a,
 .profile-link-pending {
   align-items: center;
-  border: 1px solid transparent;
-  border-radius: 50%;
   display: inline-flex;
-  height: 2rem;
   justify-content: center;
+  line-height: 1;
+  padding: 0.2rem;
   text-decoration: none;
-  width: 2rem;
 }
 
 .profile-links a {
-  color: var(--accent);
-  transition: background-color 140ms ease, border-color 140ms ease;
+  color: #74808a;
+  opacity: 0.82;
+  transition: color 140ms ease, opacity 140ms ease;
 }
 
 .profile-links a:hover,
 .profile-links a:focus {
-  background: var(--soft-blue);
-  border-color: #bac9d2;
+  color: var(--accent);
+  opacity: 1;
 }
 
-.profile-links svg {
-  fill: none;
-  height: 1.08rem;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  stroke-width: 1.75;
-  width: 1.08rem;
+.profile-links i {
+  font-size: 1.05rem;
 }
 
 .profile-link-pending {

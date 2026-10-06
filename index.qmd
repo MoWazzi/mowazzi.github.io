@@ -8,13 +8,13 @@ page-layout: full
 
 <nav class="profile-links" aria-label="Profile links">
   <a href="mailto:mohamad.wazzi@economics.ox.ac.uk" aria-label="Email Mo Wazzi" title="Email">
-    <svg aria-hidden="true" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"></rect><path d="m4 7 8 6 8-6"></path></svg>
+    <i class="bi bi-envelope" aria-hidden="true"></i>
   </a>
   <a href="https://x.com/mo_wazzi" aria-label="Mo Wazzi on X" title="X">
-    <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M5 4 19 20M19 4 5 20"></path></svg>
+    <i class="bi bi-twitter-x" aria-hidden="true"></i>
   </a>
   <span class="profile-link-pending" role="img" aria-label="CV PDF to be added" title="CV PDF to be added">
-    <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M6 3h8l4 4v14H6z"></path><path d="M14 3v5h5"></path><path d="M9 13h6M9 17h6"></path></svg>
+    <i class="bi bi-file-earmark-pdf" aria-hidden="true"></i>
   </span>
 </nav>
 :::
