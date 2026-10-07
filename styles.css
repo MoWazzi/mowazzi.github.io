@@ -78,8 +78,7 @@ a:focus {
   margin-top: 0.8rem;
 }
 
-.profile-links a,
-.profile-link-pending {
+.profile-links a {
   align-items: center;
   display: inline-flex;
   justify-content: center;
@@ -102,12 +101,6 @@ a:focus {
 
 .profile-links i {
   font-size: 1.05rem;
-}
-
-.profile-link-pending {
-  color: #8a949d;
-  cursor: help;
-  opacity: 0.72;
 }
 
 .profile-copy {
@@ -155,14 +148,6 @@ a:focus {
 
 .contact-line a {
   font-weight: 600;
-  text-decoration-thickness: 0.08em;
-  text-underline-offset: 0.14em;
-}
-
-.cv-link-pending-text {
-  color: var(--accent);
-  cursor: help;
-  text-decoration: underline;
   text-decoration-thickness: 0.08em;
   text-underline-offset: 0.14em;
 }

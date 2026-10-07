@@ -13,9 +13,9 @@ page-layout: full
   <a href="https://x.com/mo_wazzi" aria-label="Mo Wazzi on X" title="X">
     <i class="bi bi-twitter-x" aria-hidden="true"></i>
   </a>
-  <span class="profile-link-pending" role="img" aria-label="CV PDF to be added" title="CV PDF to be added">
+  <a href="cv/mo-wazzi-cv.pdf" target="_blank" rel="noopener" aria-label="View Mo Wazzi's CV" title="CV">
     <i class="bi bi-file-earmark-pdf" aria-hidden="true"></i>
-  </span>
+  </a>
 </nav>
 :::
 
@@ -28,7 +28,7 @@ page-layout: full
 
 <p class="bio">Hi! I am a third-year PhD student in Economics at the University of Oxford and a member of Nuffield College. My research interests are in macroeconomics, fiscal policy, and monetary policy. I previously worked as a senior economist at the Bank of England.</p>
 
-<p class="contact-line">You can find my CV <span class="cv-link-pending-text" title="CV PDF to be added"><strong>here</strong></span> and you can contact me at <a href="mailto:mohamad.wazzi@economics.ox.ac.uk">mohamad.wazzi@economics.ox.ac.uk</a>.</p>
+<p class="contact-line">You can find my CV <a href="cv/mo-wazzi-cv.pdf" target="_blank" rel="noopener"><strong>here</strong></a> and you can contact me at <a href="mailto:mohamad.wazzi@economics.ox.ac.uk">mohamad.wazzi@economics.ox.ac.uk</a>.</p>
 :::
 :::
 
