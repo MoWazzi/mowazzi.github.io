@@ -14,7 +14,11 @@ page-layout: full
     <i class="bi bi-twitter-x" aria-hidden="true"></i>
   </a>
   <a href="cv/mo-wazzi-cv.pdf" target="_blank" rel="noopener" aria-label="View Mo Wazzi's CV" title="CV">
-    <i class="bi bi-file-earmark-pdf" aria-hidden="true"></i>
+    <svg class="cv-page-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+      <path d="M6.25 2.5h7.25l4.25 4.25V21.5H6.25z"></path>
+      <path d="M13.5 2.5v4.25h4.25"></path>
+      <text x="12" y="16.75" text-anchor="middle">CV</text>
+    </svg>
   </a>
 </nav>
 :::

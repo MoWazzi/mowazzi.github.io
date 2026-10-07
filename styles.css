@@ -103,6 +103,26 @@ a:focus {
   font-size: 1.05rem;
 }
 
+.cv-page-icon {
+  fill: none;
+  height: 1.12rem;
+  overflow: visible;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.45;
+  width: 1.12rem;
+}
+
+.cv-page-icon text {
+  fill: currentColor;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 6.2px;
+  font-weight: 700;
+  letter-spacing: 0.15px;
+  stroke: none;
+}
+
 .profile-copy {
   max-width: 690px;
 }
