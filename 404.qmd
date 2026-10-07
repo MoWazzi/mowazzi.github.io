@@ -1,8 +1,0 @@
----
-title: "Page not found"
-page-layout: full
----
-
-The page you requested could not be found.
-
-[Return to the homepage](index.qmd){.btn .btn-primary}
