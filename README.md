@@ -1,7 +1,7 @@
 # Mo Wazzi — academic website
 
 Source files for the personal academic website published at
-<https://mowazzi.com>.
+<https://mowazzi.github.io/>.
 
 The website is built with [Quarto](https://quarto.org/) and published through
 GitHub Pages.

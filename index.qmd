@@ -1,5 +1,8 @@
 ---
 page-layout: full
+format:
+  html:
+    include-in-header: seo.html
 ---
 
 ::: {.profile-shell}

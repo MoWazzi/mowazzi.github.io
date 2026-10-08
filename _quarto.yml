@@ -3,6 +3,7 @@ project:
   output-dir: _site
   resources:
     - google6c28d60629ab04f0.html
+    - robots.txt
 
 website:
   title: "Mo Wazzi"
