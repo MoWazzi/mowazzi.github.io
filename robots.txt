@@ -1,1 +1,1 @@
-Sitemap: https://mowazzi.com/sitemap.xml
+Sitemap: https://mowazzi.github.io/sitemap.xml
