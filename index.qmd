@@ -45,7 +45,7 @@ format:
 ::: {.paper-item}
 ### Unconventional Monetary Policy: Lessons from 2020–2024
 
-<p class="paper-meta">with Silvana Tenreyro · <em>Journal of Economic Literature</em> · 2026 · Conditionally accepted</p>
+<p class="paper-meta">with Silvana Tenreyro · <em>Journal of Economic Literature</em> · 2026 · Forthcoming</p>
 
 <p class="paper-note"><em>Initially prepared for the Federal Reserve's 2025 framework review.</em></p>
 
